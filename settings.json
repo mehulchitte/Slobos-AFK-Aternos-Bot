@@ -1,7 +1,7 @@
 {
-  "name": "AFK Bot - Lallu",
+  "name": "AFK Bot",
   "bot-account": {
-    "username": "AFK Bot",
+    "username": "Slobot00",
     "password": "",
     "type": "offline"
   },
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -36,15 +36,15 @@
         "I like to play Minecraft!"
       ]
     },
-    "chat-log": false,
+    "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": false,
+    "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
@@ -65,7 +65,7 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
+    "attack-mobs": true,
     "auto-eat": true
   },
   "beds": {
